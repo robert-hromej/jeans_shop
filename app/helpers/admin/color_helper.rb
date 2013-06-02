@@ -1,2 +1,0 @@
-module Admin::ColorHelper
-end
