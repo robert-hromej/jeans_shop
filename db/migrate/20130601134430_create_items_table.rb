@@ -8,6 +8,8 @@ class CreateItemsTable < ActiveRecord::Migration
 
       t.belongs_to :brand
       t.belongs_to :category
+      t.belongs_to :color
+      t.belongs_to :dress_size
 
       t.timestamps
     end
